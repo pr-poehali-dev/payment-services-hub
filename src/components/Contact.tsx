@@ -58,12 +58,28 @@ const Contact = () => {
               <CardTitle>Связь с нами</CardTitle>
             </CardHeader>
             <CardContent className="text-center space-y-3">
-              <p>+7 (999) 123-45-67</p>
+              <p>+7 (920) 329-78-86</p>
               <p className="text-blue-100 text-sm">info@platezh-kopi.ru</p>
-              <Button className="bg-white text-blue-600 hover:bg-blue-50">
-                <Icon name="MessageCircle" className="mr-2" size={16} />
-                Написать в WhatsApp
-              </Button>
+              <div className="flex flex-col gap-2">
+                <Button
+                  className="bg-green-500 text-white hover:bg-green-600"
+                  onClick={() =>
+                    window.open("https://wa.me/79203297886", "_blank")
+                  }
+                >
+                  <Icon name="MessageCircle" className="mr-2" size={16} />
+                  WhatsApp
+                </Button>
+                <Button
+                  className="bg-blue-500 text-white hover:bg-blue-600"
+                  onClick={() =>
+                    window.open("https://t.me/+79203297886", "_blank")
+                  }
+                >
+                  <Icon name="Send" className="mr-2" size={16} />
+                  Telegram
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>
