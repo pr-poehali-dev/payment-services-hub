@@ -42,9 +42,10 @@ const Contact = () => {
               <CardTitle>Режим работы</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="mb-2">Пн-Пт: 8:00 - 20:00</p>
-              <p className="mb-2">Сб: 9:00 - 18:00</p>
-              <p className="text-blue-100">Вс: 10:00 - 16:00</p>
+              <p className="mb-2">Понедельник-пятница с 8:00 до 18:00</p>
+              <p className="text-green-100">
+                Выходные дни: суббота, воскресенье
+              </p>
             </CardContent>
           </Card>
 
