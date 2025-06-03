@@ -3,8 +3,15 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-blue-600 via-blue-500 to-purple-600 text-white py-20">
-      <div className="container mx-auto px-4 text-center">
+    <section className="bg-gradient-to-br from-blue-600 via-blue-500 to-purple-600 text-white py-20 relative overflow-hidden">
+      <div className="absolute inset-0 opacity-10">
+        <img
+          src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=800&fit=crop"
+          alt="Офисные услуги"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="text-5xl font-bold font-montserrat mb-6">
           ПлатёжКопиЦентр
         </h1>

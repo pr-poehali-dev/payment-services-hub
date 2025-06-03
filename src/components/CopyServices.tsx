@@ -35,8 +35,15 @@ const CopyServices = () => {
   ];
 
   return (
-    <section className="py-16">
-      <div className="container mx-auto px-4">
+    <section className="py-16 relative">
+      <div className="absolute left-0 top-0 w-1/4 h-full opacity-5">
+        <img
+          src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&h=800&fit=crop"
+          alt="Услуги печати"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold font-montserrat mb-4">
             Услуги копицентра

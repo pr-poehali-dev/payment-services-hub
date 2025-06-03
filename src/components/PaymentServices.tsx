@@ -49,8 +49,15 @@ const PaymentServices = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section className="py-16 bg-gray-50 relative">
+      <div className="absolute right-0 top-0 w-1/3 h-full opacity-5">
+        <img
+          src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=800&fit=crop"
+          alt="Платежные услуги"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold font-montserrat mb-4">
             Платёжные услуги

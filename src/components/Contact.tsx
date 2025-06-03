@@ -4,8 +4,15 @@ import Icon from "@/components/ui/icon";
 
 const Contact = () => {
   return (
-    <section className="py-16 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
-      <div className="container mx-auto px-4">
+    <section className="py-16 bg-gradient-to-br from-blue-600 to-purple-600 text-white relative overflow-hidden">
+      <div className="absolute inset-0 opacity-10">
+        <img
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=800&fit=crop"
+          alt="Офис контакты"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold font-montserrat mb-4">
             Контакты и режим работы
