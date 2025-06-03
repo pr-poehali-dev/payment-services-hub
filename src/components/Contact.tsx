@@ -27,8 +27,8 @@ const Contact = () => {
               <CardTitle>Наш адрес</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="mb-2">ул. Центральная, д. 15</p>
-              <p className="text-blue-100">Остановка "Центр", рядом с почтой</p>
+              <p className="mb-2">г. Баксан, пр. Ленина, д. 70</p>
+              <p className="text-blue-100">Кабардино-Балкария, центр города</p>
             </CardContent>
           </Card>
 
