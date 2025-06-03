@@ -44,7 +44,7 @@ const Contact = () => {
             <CardContent className="text-center">
               <p className="mb-2">Понедельник-пятница с 8:00 до 18:00</p>
               <p className="text-green-100">
-                Выходные дни: суббота, воскресенье
+                Суббота-воскресенье с 11:00 до 16:00
               </p>
             </CardContent>
           </Card>
